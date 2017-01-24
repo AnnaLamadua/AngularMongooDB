@@ -1,0 +1,13 @@
+<button (click)="goBack()">Back</button>
+<div class="row">
+  <div *ngIf="hero" class="col-sm-4">
+    <h2>{{hero.name}} details!</h2>
+    <div><label>Id: </label>{{hero.id}}</div>
+    <div>
+      <label>Name: </label>
+      <input [(ngModel)]="hero.name" placeholder="Name" class="form-control" #spy/>
+      {{spy.className}}
+      <input type="button" value="Save" (click)="saveChanges()" class="btn btn-default">
+    </div>
+  </div>
+</div>
