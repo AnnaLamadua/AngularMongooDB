@@ -15,15 +15,14 @@ import { DashboardComponent } from '../component/dashboard.component';
 import { HeroDetailComponent } from '../component/hero-detail.component';
 import { HeroesComponent } from '../component/heroes.component';
 import { HeroSearchComponent } from '../component/hero-search.component';
-import { fontResizerDemoComponent } from '../component/font-resizer-demo.component';
-import { fontResizerComponent } from '../component/font-resizer.component';
+// import { fontResizerDemoComponent } from '../component/font-resizer-demo.component';
+// import { fontResizerComponent } from '../component/font-resizer.component';
 import { HeroService } from '../services/hero.service';
 
 
 @NgModule({
   imports: [BrowserModule, FormsModule, AppRoutingModule, HttpModule],
-  declarations: [AppComponent, DashboardComponent, HeroesComponent, HeroDetailComponent, HeroSearchComponent,
-    fontResizerDemoComponent, fontResizerComponent],
+  declarations: [AppComponent, DashboardComponent, HeroesComponent, HeroDetailComponent, HeroSearchComponent],
   providers: [HeroService]/* Service reference here to make available through all application*/,
   bootstrap: [AppComponent]
 })
