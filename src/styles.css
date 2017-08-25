@@ -1,0 +1,25 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #3e3e3e;
+}
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  color: #369;
+  font-size: 250%;
+}
+.btn{
+  cursor: pointer;
+  border: 0;
+  background: #eee;
+  color: #3e3e3e;
+  padding: 10px;
+}
+.btn:hover{
+  background: #CFD8DC;
+}
+input[type="text"]{
+  padding: 10px;
+  border: 1px solid #eee;
+}
