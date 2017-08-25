@@ -7,7 +7,7 @@
     <h2>{{hero.name}} details!</h2>
     <div class="form-group">
       <label>Name: </label>
-      <input [(ngModel)]="hero.name" (keyup.enter)="saveChanges()" placeholder="Name" class="form-control" required #heroname/>
+      <input type="text" [(ngModel)]="hero.name" (keyup.enter)="saveChanges()" placeholder="Name" class="form-control" required #heroname/>
     </div>
     <input type="submit" value="Save" (click)="saveChanges()" [disabled]="!heroname" class="btn btn-primary">
   </div>
