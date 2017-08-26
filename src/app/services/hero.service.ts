@@ -7,7 +7,7 @@ import { Hero } from '../component/hero';
 
 @Injectable()
 export class HeroService {
-  private baseUrl = 'http://localhost:3003';  // URL to web api
+  private baseUrl = 'http://localhost:3000';  // URL to web api
   private headers = new Headers({ 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': 'localhost:*' });
   constructor(private http: Http) { }
 
